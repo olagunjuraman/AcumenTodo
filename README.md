@@ -19,7 +19,7 @@ npm install
 
 # Start Application in the root folder
 
-npm run server
+npm run dev
 
 # Run backend only
 

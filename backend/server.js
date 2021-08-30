@@ -7,6 +7,8 @@ const Inert = require("@hapi/inert");
 
 const dotenv = require("dotenv");
 
+console.log(new Date().getHours())
+
 dotenv.config();
 
 const connectDB = require("./config/db");

@@ -18,6 +18,7 @@ module.exports = {
   },
 
   async getTasks(req, reply) {
+    console.log(new Date().getHours())
     try {
       const tasks = await Task.find({});
       return reply.response(tasks);
